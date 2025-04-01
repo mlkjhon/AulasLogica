@@ -1,0 +1,13 @@
+cd - achar a pasta
+cls - limpar codigos
+cd.. - voltar comando
+mkdir - criar pasta (lembrar de colocar o nome)
+dir - ver as pastas
+rmdir - deletar arquivo
+echo - criar arquivo especifico "nome" (>) comando+fonte
+del - deletar aquivo (lembrar de colar a fonte)
+move - nome do arquivo + fonte e nome da pasta
+quando tem espaço colocar entre aspas "nome"
+systeminfo - informação do sistema
+ping - verificar conexão (colocar endereço de site)(-t) para ver se esta instavel (ctrl C) para parar a vizu do ping
+ipconfig ver os ip´s do conputador

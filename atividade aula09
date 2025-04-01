@@ -1,0 +1,26 @@
+const prompt = require('prompt-sync')();
+
+
+
+var idade = Number(prompt('Qual a sua idade?'))
+
+if (idade < 16 ) {
+    console.log('Voce nao podera votar');
+    
+}
+
+if (idade >=18 && idade <= 70){
+    console.log('Voce é obrigado a votar');
+    
+}
+
+if (idade > 16 && idade < 18) { 
+    console.log('Seu voto é facultativo');
+
+}
+
+if (idade > 70) {
+    console.log('Seu voto é facultativo');
+    
+    
+}
