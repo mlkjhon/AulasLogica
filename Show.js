@@ -235,11 +235,11 @@ if (tenho_ingresso == 'sim' && entrada == 'sim' && ingresso == 'basica') {
     reserva_basica = prompt('Oque voce quer fazer? (reservar ingresso ou verificar reserva) ');
 }
     
-if (reserva_basica == 'verificar' || 'verificar ingresso') {
+if (reserva_basica == 'verificar' || reserva_basica =='verificar ingresso') {
     verificação_basica1 = Number(prompt('Qual a cadeira? '))
 }
 
-if (reserva_basica == 'reserva' || 'reservar ingresso') {
+if (reserva_basica == 'reserva' || reserva_basica == 'reservar ingresso') {
     verificação_basica1 = Number(prompt('Qual a cadeira? '))
 
 
@@ -260,10 +260,10 @@ if (reserva_basica == 'reserva' || 'reservar ingresso') {
 if (tenho_ingresso == 'sim' && entrada == 'sim' && ingresso == 'VIP') {
     reserva = prompt('Oque voce quer fazer? (reservar ingresso ou verificar reserva) ');
 }
-if (reserva_VIP == 'reserva' || 'reservar ingresso') {
+if (reserva_VIP == 'reserva' || reserva_VIP ==  'reservar ingresso') {
     verificação_vip1 = Number(prompt('Qual a cadeira '))
 }
-if (reserva_VIP == 'verificar' || 'verificar ingresso') {
+if (reserva_VIP == 'verificar' || reserva_VIP == 'verificar ingresso') {
     verificação_vip1 = Number(prompt('Qual a cadeira '))
 }
     if (cadeira_vip == true) {
